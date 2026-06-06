@@ -1,0 +1,29 @@
+Abstract
+In the past few decades, Japanese comics, commonly re-
+ferred to as Manga, have transcended both cultural and
+linguistic boundaries to become a true worldwide sensa-
+tion. Yet, the inherent reliance on visual cues and illustra-
+tion within manga renders it largely inaccessible to indi-
+viduals with visual impairments. In this work, we seek to
+address this substantial barrier, with the aim of ensuring
+that manga can be appreciated and actively engaged by ev-
+eryone. Specifically, we tackle the problem of diarisation
+i.e. generating a transcription of who said what and when,
+in a fully automatic way.To this end, we make the following contributions: (1)
+we present a unified model, Magi , that is able to (a) detect
+panels, text boxes and character boxes, (b) cluster char-
+acters by identity (without knowing the number of clus-
+ters apriori), and (c) associate dialogues to their speak-
+ers; (2) we propose a novel approach that is able to sort
+the detected text boxes in their reading order and gener-
+ate a dialogue transcript; (3) we annotate an evaluation
+benchmark for this task using publicly available [English]
+manga pages. The code, evaluation datasets and the pre-
+trained model can be found at: https://github.
+com/ragavsachdeva/magi .
+This CVPR paper is the Open Access version, provided by the Computer Vision Foundation.
+Except for this watermark, it is identical to the accepted version;
+the final published version of the proceedings is available on IEEE Xplore.
+12967
+
+1.

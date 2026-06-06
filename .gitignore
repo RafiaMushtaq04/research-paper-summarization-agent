@@ -1,0 +1,18 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Local run outputs
+my_summary.md
+sample_summary.md
+sample_summary_paper2.md
+
+# Optional local paper cache
+Research_papers_first4/
