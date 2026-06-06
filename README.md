@@ -32,7 +32,6 @@ This project is designed as a practical natural-language AI agent for long-docum
 - `src/interactive.py`: interactive terminal mode
 - `tools/experiment_runner.py`: experiment batch runner
 - `tools/evaluate_summaries.py`: automatic evaluation
-- `report_material/`: paper-ready notes, sections, and diagram source
 - `results/`: generated summaries and evaluation outputs
 
 ## Setup
@@ -111,14 +110,3 @@ Average ROUGE scores:
 - ROUGE-1: `0.3510`
 - ROUGE-2: `0.0913`
 - ROUGE-L: `0.1734`
-
-## Security and GitHub Upload Notes
-
-- Do not commit `.env`
-- Keep API keys only in your local environment file
-- Commit `.env.example` instead of `.env`
-- The included `.gitignore` already excludes secrets, virtual environments, and local run outputs
-
-## License
-
-Add your preferred license before publishing the repository.
