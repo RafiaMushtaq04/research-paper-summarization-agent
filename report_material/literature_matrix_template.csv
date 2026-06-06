@@ -1,3 +1,0 @@
-Paper Title,Year,Task,Method/Model,Dataset,Key Findings,Limitations,Research Gap Relevance
-Example Paper A,2024,Scientific summarization,LLM + retrieval,arXiv subset,Good factual summaries,Hallucination in long docs,Need chunk-grounded summaries
-Example Paper B,2023,Abstractive summarization,Transformer baseline,CNN/DM,Fluent outputs,Domain mismatch on research papers,Need domain-specific prompt strategy
